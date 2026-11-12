@@ -16,13 +16,6 @@ const START_PAGE_DATA: StartPageData = {
   ],
   links: [
     {
-      id: "featured",
-      title: "Título del link destacado",
-      description: "Descripción corta",
-      href: "#",
-      featured: true,
-    },
-    {
       id: "link-1",
       title: "Título del link 1",
       description: "Descripción corta",
@@ -48,8 +41,8 @@ const START_PAGE_DATA: StartPageData = {
     },
   ],
   footer: {
-    text: "Texto del pie",
-    legal: "Legal / copyright",
+    text: "sebastiandiaz.com.ar",
+    legal: "© 2026 Sebastián Díaz",
   },
 }
 

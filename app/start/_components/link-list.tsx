@@ -1,5 +1,4 @@
 import { ItemGroup } from "@/components/ui/item"
-import { cn } from "@/lib/utils"
 
 import type { StartLink } from "../_lib/types"
 import { LinkCard } from "./link-card"
@@ -20,7 +19,7 @@ export function LinkList({
           <div
             key={link.id}
             role="listitem"
-            className={cn(motion.className, link.featured && "mb-1.5")}
+            className={motion.className}
             style={motion.style}
           >
             <LinkCard link={link} />

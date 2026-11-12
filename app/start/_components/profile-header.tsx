@@ -1,7 +1,5 @@
 import Image from "next/image"
-import { BadgeCheck, Ellipsis, User } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
+import { BadgeCheck, User } from "lucide-react"
 
 import type { SocialLink, StartProfile } from "../_lib/types"
 import { SocialLinks } from "./social-links"
@@ -31,14 +29,6 @@ export function ProfileHeader({
             className="absolute inset-0 bg-[radial-gradient(var(--input)_1px,transparent_1px)] bg-size-[14px_14px]"
           />
         )}
-        <Button
-          variant="outline"
-          size="icon"
-          aria-label="Más opciones"
-          className="absolute top-3 right-3 rounded-full"
-        >
-          <Ellipsis />
-        </Button>
       </div>
 
       <div className="flex flex-col items-center px-6 pb-7 text-center">
@@ -61,7 +51,7 @@ export function ProfileHeader({
           {profile.displayName}
           {profile.verified ? (
             <>
-              <BadgeCheck aria-hidden className="size-6 shrink-0 text-brand" />
+              <BadgeCheck aria-hidden className="size-6 shrink-0 text-accent" />
               <span className="sr-only">Cuenta verificada</span>
             </>
           ) : null}

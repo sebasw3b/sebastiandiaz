@@ -7,31 +7,6 @@
 @theme inline {
     --font-heading: var(--font-sans);
     --font-sans: var(--font-sans);
-    --font-serif: var(--font-serif);
-
-    /* Escala tipográfica (Hey Creator): títulos 600 con tracking negativo, texto 400 a 1.6. */
-    --text-display: 5rem;
-    --text-display--line-height: 1.04;
-    --text-display--letter-spacing: -0.06em;
-    --text-display--font-weight: 600;
-    --text-headline: 3.25rem;
-    --text-headline--line-height: 1.08;
-    --text-headline--letter-spacing: -0.05em;
-    --text-headline--font-weight: 600;
-    --text-title: 2.6875rem;
-    --text-title--line-height: 1.08;
-    --text-title--letter-spacing: -0.05em;
-    --text-title--font-weight: 600;
-    --text-lead: 1.5625rem;
-    --text-lead--line-height: 1.6;
-    --text-lead--letter-spacing: -0.032em;
-    --text-lead--font-weight: 600;
-    --text-subtitle: 1.3125rem;
-    --text-subtitle--line-height: 1.2;
-    --text-subtitle--letter-spacing: -0.024em;
-    --text-subtitle--font-weight: 600;
-    --text-body: 1.0625rem;
-    --text-body--line-height: 1.6;
 
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
@@ -64,14 +39,6 @@
     --color-card: var(--card);
     --color-foreground: var(--foreground);
     --color-background: var(--background);
-    --color-brand: var(--brand);
-    --color-brand-foreground: var(--brand-foreground);
-    --color-brand-soft: var(--brand-soft);
-    --color-brand-soft-foreground: var(--brand-soft-foreground);
-    --color-overlay: var(--overlay);
-
-    --shadow-card: var(--shadow-card);
-    --shadow-elevated: var(--shadow-elevated);
 
     /* --radius = 24px → md ≈ 20px, lg = 24px, xl ≈ 32px, 2xl ≈ 40px; pills con rounded-full. */
     --radius-sm: calc(var(--radius) * 0.6);
@@ -97,22 +64,12 @@
     --secondary-foreground: #111111;
     --muted: #ebebe7;
     --muted-foreground: #62625f;
-    --accent: #ebebe7;
-    --accent-foreground: #111111;
+    --accent: #3255f4;
+    --accent-foreground: #ffffff;
     --destructive: oklch(0.577 0.245 27.325);
     --border: #dcdcd7;
     --input: #dcdcd7;
     --ring: #3255f4;
-    --brand: #3255f4;
-    --brand-foreground: #ffffff;
-    --brand-soft: #e9ecff;
-    --brand-soft-foreground: #3255f4;
-    --overlay: rgb(30 25 22 / 32%);
-    --shadow-card: 0 2px 10px rgb(39 31 23 / 3%);
-    --shadow-elevated:
-        0 0.6px 1.57px -1.5px rgb(0 0 0 / 17%),
-        0 2.29px 5.95px -3px rgb(0 0 0 / 14%),
-        0 10px 26px -4.5px rgb(0 0 0 / 2%);
     --chart-1: #3255f4;
     --chart-2: #111111;
     --chart-3: #62625f;
@@ -143,22 +100,12 @@
     --secondary-foreground: #f5f5f2;
     --muted: #262625;
     --muted-foreground: #a3a39f;
-    --accent: #262625;
-    --accent-foreground: #f5f5f2;
+    --accent: #6b85ff;
+    --accent-foreground: #111111;
     --destructive: oklch(0.704 0.191 22.216);
     --border: rgb(255 255 255 / 12%);
     --input: rgb(255 255 255 / 15%);
     --ring: #6b85ff;
-    --brand: #6b85ff;
-    --brand-foreground: #111111;
-    --brand-soft: #1c2240;
-    --brand-soft-foreground: #a9b8ff;
-    --overlay: rgb(0 0 0 / 45%);
-    --shadow-card: 0 2px 10px rgb(0 0 0 / 20%);
-    --shadow-elevated:
-        0 0.6px 1.57px -1.5px rgb(0 0 0 / 40%),
-        0 2.29px 5.95px -3px rgb(0 0 0 / 35%),
-        0 10px 26px -4.5px rgb(0 0 0 / 20%);
     --chart-1: #6b85ff;
     --chart-2: #f5f5f2;
     --chart-3: #a3a39f;

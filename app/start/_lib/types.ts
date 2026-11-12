@@ -23,7 +23,6 @@ export type StartLink = {
   title: string
   description: string
   href: string
-  featured?: boolean
   /** URL de la miniatura. Sin valor → placeholder. */
   thumbnailUrl?: string
 }
