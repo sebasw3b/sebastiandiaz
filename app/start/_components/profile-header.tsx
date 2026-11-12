@@ -66,10 +66,12 @@ export function ProfileHeader({
             </>
           ) : null}
         </h1>
-        <p className="mt-1 text-[0.9375rem] text-foreground/80">
-          {profile.category}
-        </p>
-        <p className="mt-3 max-w-[34ch] text-sm leading-relaxed text-pretty text-muted-foreground">
+        {profile.category ? (
+          <p className="mt-1 text-[0.9375rem] text-foreground/80">
+            {profile.category}
+          </p>
+        ) : null}
+        <p className="mt-2 max-w-[34ch] text-base leading-relaxed text-pretty text-muted-foreground">
           {profile.bio}
         </p>
 

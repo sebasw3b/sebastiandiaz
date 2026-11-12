@@ -4,16 +4,15 @@ import type { StartPageData, StartPageResult } from "./types"
 // (envuelta en React.cache) manteniendo el contrato StartPageResult.
 const START_PAGE_DATA: StartPageData = {
   profile: {
-    displayName: "Nombre visible",
-    category: "Título / categoría",
-    bio: "Bio corta: una o dos líneas sobre quién sos y qué vas a encontrar en estos links.",
+    displayName: "Sebastian Diaz",
+    bio: "Comparto lo que me funciona para tener más libre en mi negocio",
+    avatarUrl: "/start/avatar.webp",
     verified: true,
   },
   socials: [
-    { platform: "instagram", label: "Instagram", href: "#" },
-    { platform: "tiktok", label: "TikTok", href: "#" },
-    { platform: "youtube", label: "YouTube", href: "#" },
-    { platform: "email", label: "Email", href: "#" },
+    { platform: "instagram", label: "Instagram", href: "https://www.instagram.com/soysebastiandiaz_" },
+    { platform: "tiktok", label: "TikTok", href: "https://www.tiktok.com/@soysebastiandiaz_" },
+    { platform: "email", label: "Email", href: "mailto:sebasw3b@gmail.com" },
   ],
   links: [
     {

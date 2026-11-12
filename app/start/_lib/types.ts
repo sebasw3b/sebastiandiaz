@@ -9,7 +9,7 @@ export type SocialLink = {
 
 export type StartProfile = {
   displayName: string
-  category: string
+  category?: string
   bio: string
   verified: boolean
   /** URL de la foto de perfil. Sin valor → placeholder. */
