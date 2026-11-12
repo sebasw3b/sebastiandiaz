@@ -1,5 +1,4 @@
 import { buttonVariants } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
 
 import type { SocialLink } from "../_lib/types"
 import { SocialIcon } from "./social-icon"
@@ -12,10 +11,7 @@ export function SocialLinks({ socials }: { socials: SocialLink[] }) {
           <a
             href={social.href}
             aria-label={social.label}
-            className={cn(
-              buttonVariants({ variant: "outline", size: "icon-lg" }),
-              "size-11 rounded-full"
-            )}
+            className={buttonVariants({ size: "icon" })}
           >
             <SocialIcon platform={social.platform} className="size-[18px]" />
           </a>

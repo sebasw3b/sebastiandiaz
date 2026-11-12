@@ -27,7 +27,7 @@
     --text-lead--letter-spacing: -0.032em;
     --text-lead--font-weight: 600;
     --text-subtitle: 1.3125rem;
-    --text-subtitle--line-height: 1.15;
+    --text-subtitle--line-height: 1.2;
     --text-subtitle--letter-spacing: -0.024em;
     --text-subtitle--font-weight: 600;
     --text-body: 1.0625rem;
@@ -108,8 +108,11 @@
     --brand-soft: #e9ecff;
     --brand-soft-foreground: #3255f4;
     --overlay: rgb(30 25 22 / 32%);
-    --shadow-card: 0 16px 40px rgb(17 17 17 / 9%);
-    --shadow-elevated: 0 24px 60px rgb(17 17 17 / 16%);
+    --shadow-card: 0 2px 10px rgb(39 31 23 / 3%);
+    --shadow-elevated:
+        0 0.6px 1.57px -1.5px rgb(0 0 0 / 17%),
+        0 2.29px 5.95px -3px rgb(0 0 0 / 14%),
+        0 10px 26px -4.5px rgb(0 0 0 / 2%);
     --chart-1: #3255f4;
     --chart-2: #111111;
     --chart-3: #62625f;
@@ -151,8 +154,11 @@
     --brand-soft: #1c2240;
     --brand-soft-foreground: #a9b8ff;
     --overlay: rgb(0 0 0 / 45%);
-    --shadow-card: 0 16px 40px rgb(0 0 0 / 35%);
-    --shadow-elevated: 0 24px 60px rgb(0 0 0 / 50%);
+    --shadow-card: 0 2px 10px rgb(0 0 0 / 20%);
+    --shadow-elevated:
+        0 0.6px 1.57px -1.5px rgb(0 0 0 / 40%),
+        0 2.29px 5.95px -3px rgb(0 0 0 / 35%),
+        0 10px 26px -4.5px rgb(0 0 0 / 20%);
     --chart-1: #6b85ff;
     --chart-2: #f5f5f2;
     --chart-3: #a3a39f;
