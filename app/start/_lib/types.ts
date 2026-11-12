@@ -27,11 +27,6 @@ export type StartLink = {
   thumbnailUrl?: string
 }
 
-export type StartFooter = {
-  text: string
-  legal: string
-}
-
 /** Reservado para el formulario del diseño (aún sin implementar). */
 export type StartForm = {
   title: string
@@ -44,7 +39,6 @@ export type StartPageData = {
   profile: StartProfile
   socials: SocialLink[]
   links: StartLink[]
-  footer: StartFooter
   form?: StartForm
 }
 

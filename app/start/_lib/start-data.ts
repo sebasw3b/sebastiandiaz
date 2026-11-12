@@ -40,10 +40,6 @@ const START_PAGE_DATA: StartPageData = {
       href: "#",
     },
   ],
-  footer: {
-    text: "sebastiandiaz.com.ar",
-    legal: "© 2026 Sebastián Díaz",
-  },
 }
 
 export async function getStartPageData(): Promise<StartPageResult> {

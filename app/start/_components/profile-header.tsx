@@ -47,7 +47,7 @@ export function ProfileHeader({
           )}
         </div>
 
-        <h1 className="mt-4 flex items-center gap-1.5 font-heading text-[1.75rem] leading-tight font-semibold tracking-tight">
+        <h1 className="mt-4 flex items-center gap-1.5 font-heading text-3xl leading-tight font-semibold tracking-tight">
           {profile.displayName}
           {profile.verified ? (
             <>
@@ -57,11 +57,11 @@ export function ProfileHeader({
           ) : null}
         </h1>
         {profile.category ? (
-          <p className="mt-1 text-[0.9375rem] text-foreground/80">
+          <p className="mt-1 text-sm text-foreground/80">
             {profile.category}
           </p>
         ) : null}
-        <p className="mt-2 max-w-[34ch] text-base leading-relaxed text-pretty text-muted-foreground">
+        <p className="mt-2 max-w-xs text-base leading-relaxed text-pretty text-muted-foreground">
           {profile.bio}
         </p>
 

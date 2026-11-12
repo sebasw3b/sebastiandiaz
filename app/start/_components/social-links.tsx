@@ -13,7 +13,7 @@ export function SocialLinks({ socials }: { socials: SocialLink[] }) {
             aria-label={social.label}
             className={buttonVariants({ size: "icon" })}
           >
-            <SocialIcon platform={social.platform} className="size-[18px]" />
+            <SocialIcon platform={social.platform} className="size-4.5" />
           </a>
         </li>
       ))}

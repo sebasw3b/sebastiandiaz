@@ -4,6 +4,7 @@ import { Geist_Mono, Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
+import { SiteFooter } from "@/shared/components/site-footer"
 
 const fontSans = Inter({
   subsets: ["latin", "latin-ext"],
@@ -46,8 +47,11 @@ export default function RootLayout({
         fontSans.variable
       )}
     >
-      <body>
-        <ThemeProvider>{children}</ThemeProvider>
+      <body className="flex min-h-svh flex-col">
+        <ThemeProvider>
+          <div className="flex flex-1 flex-col">{children}</div>
+          <SiteFooter />
+        </ThemeProvider>
       </body>
     </html>
   )
