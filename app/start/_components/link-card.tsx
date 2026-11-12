@@ -1,9 +1,8 @@
 import Image from "next/image"
-import { ChevronRight, Image as ImageIcon } from "lucide-react"
+import { Image as ImageIcon } from "lucide-react"
 
 import {
   Item,
-  ItemActions,
   ItemContent,
   ItemDescription,
   ItemMedia,
@@ -16,7 +15,7 @@ export function LinkCard({ link }: { link: StartLink }) {
   const { title, description, href, thumbnailUrl } = link
 
   return (
-    <Item variant="outline" size="sm" render={<a href={href} />}>
+    <Item size="sm" render={<a href={href} />}>
       <ItemMedia
         variant="image"
         className="grid place-items-center border bg-background text-muted-foreground"
@@ -31,9 +30,6 @@ export function LinkCard({ link }: { link: StartLink }) {
         <ItemTitle>{title}</ItemTitle>
         <ItemDescription>{description}</ItemDescription>
       </ItemContent>
-      <ItemActions>
-        <ChevronRight aria-hidden className="size-4 text-muted-foreground" />
-      </ItemActions>
     </Item>
   )
 }
