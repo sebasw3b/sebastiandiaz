@@ -1,12 +1,18 @@
-import { Geist_Mono, Schibsted_Grotesk } from "next/font/google"
+import { Geist_Mono, Inter, Source_Serif_4 } from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 
-const fontSans = Schibsted_Grotesk({
+const fontSans = Inter({
   subsets: ["latin", "latin-ext"],
   variable: "--font-sans",
+})
+
+const fontSerif = Source_Serif_4({
+  subsets: ["latin", "latin-ext"],
+  style: ["italic"],
+  variable: "--font-serif",
 })
 
 const fontMono = Geist_Mono({
@@ -27,7 +33,8 @@ export default function RootLayout({
         "antialiased",
         fontMono.variable,
         "font-sans",
-        fontSans.variable
+        fontSans.variable,
+        fontSerif.variable
       )}
     >
       <body>

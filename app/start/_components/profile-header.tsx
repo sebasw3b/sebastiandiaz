@@ -14,7 +14,7 @@ export function ProfileHeader({
   socials: SocialLink[]
 }) {
   return (
-    <header className="overflow-hidden rounded-2xl border bg-card text-card-foreground">
+    <header className="overflow-hidden rounded-lg border bg-card text-card-foreground">
       <div className="relative h-32 bg-muted">
         {profile.coverUrl ? (
           <Image
