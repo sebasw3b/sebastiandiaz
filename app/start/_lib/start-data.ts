@@ -11,7 +11,7 @@ const START_PAGE_DATA: StartPageData = {
   },
   socials: [
     { platform: "instagram", label: "Instagram", href: "https://www.instagram.com/soysebastiandiaz_" },
-    { platform: "tiktok", label: "TikTok", href: "https://www.tiktok.com/@soysebastiandiaz_" },
+    { platform: "tiktok", label: "TikTok", href: "https://www.tiktok.com/@soysebastiandiaz" },
     { platform: "email", label: "Email", href: "mailto:sebasw3b@gmail.com" },
   ],
   links: [
